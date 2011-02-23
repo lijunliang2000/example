@@ -1,0 +1,5 @@
+   Ubuntu Git是Linu Torvalds(Lxinux之父)为了帮助管理Linux内核开发而开发的一个开放源码的分一个仓库(Rep布式版本控制软件，它不同于 Subversion、CVS这样的集中式版本控制系统。在集中式版本控制系统中只有ository)，许多个工作目录(Working Copy)，而在Git这样的分布式版本控制系统中(其他主要的分布式版本控制系统还有BitKeeper、Mercurial、GNU Arch、Bazaar、Darcs、SVK、Monotone等)，每一个工作目录都包含一个完整仓库，它们支持离线工作，本地提交可以稍后提交到服务 器上。
+       在Ubuntu 10.04上安装Ubuntu Git只需要设定正确的更新源，然后使用apt-get就可以了，apt-get是一条Linux命令，主要用于自动从互联网的软件仓库中搜索、安装、升级、卸载软件或操作系统。
+apt-get命令一般需要root权限执行，所以一般跟着sudo命令。
+sudo apt-get install git-core curl
+这条命令会从互联网的软件仓库中安装git-core和curl。
